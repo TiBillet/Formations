@@ -4,11 +4,11 @@
 
 Une app ou un site web a besoin d'une mise en page pour des périphériques avec de grands écrans (ordinateurs de bureau), une autre pour des périphériques avec des écrans de taille moyenne (tablettes et petits ordinateurs portables) et enfin pour des périphériques plus petits (smartphones).
 
-![[img/taille et modificateurs.png]]
+![[img/taille et modificateurs.png]](./img/taille et modificateurs.png)
 
 **Un breakpoint (point d'arrêt)** est un point de discontinuité, modification ou interruption. Dans le contexte de conception et de développement frontend, un point d'arrêt est le point à partir duquel la mise en page change. Généralement, un nombre de pixels représente la largeur de la taille d’écran affichée à laquelle le point d'arrêt se produit.
 
-![[breakscrean.jpg]]
+![[breakscrean.jpg]](./img/breakscrean.jpg)
 
 Pour appliquer les modificateurs de classes appropriés pour ces options de mise en page, il est important de comprendre qu'ils fonctionnent **par le haut**, c'est-à-dire de la plus petite taille d’écran vers la plus grande : C'est l'approche **mobile-first**.
 
@@ -27,7 +27,7 @@ On commence par le plus petit, et on change si on indique plus grand.
 ## Gouttières
 Les espacements entre les différentes colonnes de la grille sont appelés **gouttières** (_gutters_, en anglais).
 
-![[gouttiere.jpg]]
+![[gouttiere.jpg]](./img/gouttiere.jpg)
 
 ```html
 <div class="container px-4">
@@ -46,7 +46,7 @@ Les espacements entre les différentes colonnes de la grille sont appelés **gou
 
 Pour certains designs, vous aurez besoin de laisser l’équivalent d’une colonne (ou plus) vide entre 2 colonnes. Ce qui est le cas pour la partie Expertise de notre portfolio :
 
-![[offset.png]]
+![[offset.png]](./img/offset.png)
 
 ```html
 <div class="container">

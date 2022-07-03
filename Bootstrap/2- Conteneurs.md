@@ -64,11 +64,11 @@ Cette grille utilise une série de **lignes** (en anglais, _row_) et de **colonn
 
 Bootstrap 5 possède une grille à 12 colonnes. Dans ce cas précis, Bootstrap attribuera **automatiquement** la moitié des colonnes à chacun des éléments   `<div>`  de classe   `.col`, donnant alors une largeur de 6 colonnes par  `<div>`.
 
-![[12col.jpg]]
+![[12col.jpg]](./img/12col.jpg)
 
 Vous pouvez avoir une mise en page qui ne possède pas de colonnes de taille égale. Supposons que vous disposiez d'une ligne, que vous vouliez qu'une colonne de cette ligne occupe deux tiers de sa largeur, et qu'une autre colonne occupe le tiers restant.
 
-![[2tiers.jpg]]
+![[2tiers.jpg]](./img/2tiers.jpg)
 
 ```html
 <div class="container">
@@ -97,4 +97,4 @@ Entre autres ! Vous pouvez consulter toutes les classes sous la liste “Utiliti
 
 ### A vous de jouer !
 
-![[first_exo.jpg]]
+![[first_exo.jpg]](./img/first_exo.jpg)

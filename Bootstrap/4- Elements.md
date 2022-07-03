@@ -18,7 +18,7 @@ Dans le cas de notre   `h1`, nous allons lui ajouter la classe   `.fw-bold`,
 
 Vous pouvez voir toutes les classes utilitaires liées aux propriétés du texte dans [la documentation Bootstrap](https://getbootstrap.com/docs/5.0/utilities/text/#font-weight-and-italics).
 
-![[font.png]]
+![[font.png]](./img/font.png)
 
 ### Typographie responsive
 
@@ -47,7 +47,7 @@ https://getbootstrap.com/docs/5.0/utilities/text/#text-alignment
 
 ## Les boutons
 
-![[button.png]]
+![[button.png]](./img/button.png)
 
 ```html
 <button type="button" class="btn btn-primary">Bouton</button>
