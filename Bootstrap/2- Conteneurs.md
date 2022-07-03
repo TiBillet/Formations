@@ -8,7 +8,8 @@ https://openclassrooms.com/fr/courses/7542506-creez-des-sites-web-responsives-av
 
 Analysons cette maquette :
 
-![[portfolio.png]]
+
+![[portfolio.png]](./img/portfolio.png)
 
 En résumé, notre structure est composée de :
 
