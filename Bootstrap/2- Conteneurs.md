@@ -92,7 +92,18 @@ Les classes utilitaires sont des classes créées par Bootstrap 5, qui permetten
 -   `padding`  (comme  `.p-5`) ;
 -   `border`  (comme  `.border-top`).
     
-Entre autres ! Vous pouvez consulter toutes les classes sous la liste “Utilities” dans la [documentation de Bootstrap](https://getbootstrap.com/docs/5.0/utilities/).
+Entre autres ! Vous pouvez consulter toutes les classes sous la liste “Utilities” dans la [documentation de Bootstrap](https://	<div class="container-lg">
+		
+		<section>
+			<h1>Premier titre</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</section>
+	</div>getbootstrap.com/docs/5.0/utilities/).
 
 
 ### A vous de jouer !

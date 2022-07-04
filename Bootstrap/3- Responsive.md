@@ -4,7 +4,7 @@
 
 Une app ou un site web a besoin d'une mise en page pour des périphériques avec de grands écrans (ordinateurs de bureau), une autre pour des périphériques avec des écrans de taille moyenne (tablettes et petits ordinateurs portables) et enfin pour des périphériques plus petits (smartphones).
 
-![[img/taille et modificateurs.png]](./img/taille et modificateurs.png)
+![[taille_breakpoints.png]](./img/taille_breakpoints.png)
 
 **Un breakpoint (point d'arrêt)** est un point de discontinuité, modification ou interruption. Dans le contexte de conception et de développement frontend, un point d'arrêt est le point à partir duquel la mise en page change. Généralement, un nombre de pixels représente la largeur de la taille d’écran affichée à laquelle le point d'arrêt se produit.
 
