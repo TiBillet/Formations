@@ -1,4 +1,7 @@
 # Introduction
+Cours librement inspiré par : 
+
+https://openclassrooms.com/fr/courses/7542506-creez-des-sites-web-responsives-avec-bootstrap-5/
 
 #### L'importance du mobile
 
