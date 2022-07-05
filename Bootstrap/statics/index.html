@@ -7,29 +7,69 @@
 	<title>Bootstrap Courses</title>
 </head>
 <body>
-	<div class="container-lg">
-		
-		<section>
-			<h1>Premier titre</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		</section>
-	</div>
+	<header>
+		<nav class="navbar navbar-expand-md bg-light navbar-light">
+			<div class="container">
+				<a class="navbar-brand text-uppercase fw-bold" href="#">
+					<span class="bg-primary bg-gradient p-1 rounded-3 text-light">John</span> Doe
+				</a>
 
-	<div class="container">
-		<div class="row">
-			<div class="col-8 bg-light bg-gradient">
-				Première colonne
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNav"">
+					
+					<ul class="navbar-nav">
+						<li class="nav-item active">
+							<a class="nav-link" href="#johndoe">Qui suis-je ?</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#expertise">Expertises</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#portfolio">Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
 			</div>
-			<div class="col-4 bg-primary bg-gradient">
-				Deuxième colonne
+		</nav>
+	</header>
+
+	<section class="">
+		<div class="container">
+			<div class="row my-1">
+				<div class="bg-danger bg-gradient col-sm-6 offset-lg-3 col-lg-6 my-sm-0 my-1">
+					1ère Ligne - Première colonne
+				</div>
+				<div class="bg-success bg-gradient col-sm-6 col-lg-3">
+					1ère Ligne - Deuxième colonne
+				</div>
 			</div>
+
+			<div class="row my-1">
+				<div class="bg-success bg-gradient col-sm-6 col-lg-3 my-sm-0 my-1">
+					2eme Ligne - Première colonne
+				</div>
+				<div class="bg-success bg-gradient col-sm-6 offset-lg-6 col-lg-3">
+					2eme Ligne - Deuxième colonne
+				</div>
+			</div>
+
+			<div class="row my-1 ">
+				<div class="col-sm-3 bg-primary bg-gradient offset-lg-6 my-sm-0 my-1">
+					3eme Ligne - Première colonne
+				</div>
+				<div class="col-sm-3 offset-sm-6 offset-lg-0 bg-primary bg-gradient">
+					3eme Ligne - Deuxième colonne
+				</div>
+			</div>
+
 		</div>
-	</div>
+	</section>
 
 
 </body>
