@@ -29,3 +29,46 @@ Nous pouvons voir que le composant suit une architecture donnée :
     
 
 Il est très important de **respecter** cette structure pour obtenir le résultat escompté.
+
+## Images aléatoires :
+
+https://picsum.photos/300/150?random=1
+
+## Example :
+
+```html
+
+	<section class="my-5">
+		<div class="container">
+			<div class="row">
+					
+				<div class="card col-12 col-md-6 col-lg-4 p-1">
+				  <img src="card1-300.jpg" class="card-img-top rounded-3" alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">Card title</h5>
+				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    <a href="#" class="btn btn-primary">Go somewhere</a>
+				  </div>
+				</div>
+
+				<div class="card col-12 col-md-6 col-lg-4 p-1">
+					<img src="card2-300.jpg" class="card-img-top rounded-3" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				</div>
+
+				<div class="card col-12 col-md-6 col-lg-4 p-1">
+					<img src="card2-300.jpg" class="card-img-top rounded-3" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+```
