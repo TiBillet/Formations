@@ -63,4 +63,9 @@ https://icons.getbootstrap.com/
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 ```
 
+```html
+<a href=”mon lien linkedin” target=”_blank”>
+    <i class="bi bi-linkedin"></i>
+</a>
+```
 ## Continuez le portfolio ? :)
