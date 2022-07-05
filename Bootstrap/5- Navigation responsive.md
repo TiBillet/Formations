@@ -118,3 +118,110 @@ Enfin, ajoutez l’attribut identifiant ayant la même valeur que celle de l'att
 Vous remarquerez peut-être la classe  `justify-content-end`  : encore une fois, c’est une [classe utilitaire de Bootstrap 5](https://getbootstrap.com/docs/5.0/utilities/flex/) permettant d’ajouter la propriété  `flex justify-content: flex-end`.
 
 En effet, la navigation Boostrap 5 est par défaut en display  `flex`, ce qui fait que nous pouvons utiliser les propriétés  `flex`  sur les éléments enfants de la  `nav`  pour les placer à droite, à gauche, au centre...
+
+
+# On essayer d'arriver à ça ? 
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	<title>Bootstrap Courses</title>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+			<div class="container">
+				<a class="navbar-brand text-uppercase fw-bold" href="#">
+					<span class="bg-primary bg-gradient p-1 rounded-3 text-light">John</span> Doe
+				</a>
+
+				<button class="navbar-toggler" type="button" 
+
+				aria-controls="navbarNav" 
+				aria-expanded="false" 
+				aria-label="Toggle navigation"
+
+				data-bs-toggle="collapse" 
+				data-bs-target="#navbarNav" 
+				>
+
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#johndoe">Qui suis-je ?</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#expertise">Expertises</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#portfolio">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+				</div>
+
+			</div>
+		</nav>
+	</header>
+
+	<section class="">
+		<div class="container text-center text-sm-start fs-2">
+			<div class="row my-1 ">
+				<div class="bg-danger bg-gradient col-sm-6 offset-lg-3 col-lg-6 my-sm-0 my-1 ">
+					1ère Ligne - Première colonne
+				</div>
+				<div class="bg-success bg-gradient col-sm-6 col-lg-3">
+					1ère Ligne - Deuxième colonne
+				</div>
+			</div>
+
+			<div class="row my-1">
+				<div class="bg-success bg-gradient col-sm-6 col-lg-3 my-sm-0 my-1">
+					2eme Ligne - Première colonne
+				</div>
+				<div class="bg-success bg-gradient col-sm-6 offset-lg-6 col-lg-3">
+					2eme Ligne - Deuxième colonne
+				</div>
+			</div>
+
+			<div class="row my-1 ">
+				<div class="col-sm-3 bg-primary bg-gradient offset-lg-6 my-sm-0 my-1">
+					3eme Ligne - Première colonne
+				</div>
+				<div class="col-sm-3 offset-sm-6 offset-lg-0 bg-primary bg-gradient">
+					3eme Ligne - Deuxième colonne
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			
+			<button type="button" class="btn btn-primary" action="submit">Bouton</button>
+			<a class="btn btn-primary" href="/index.html" role="button">Lien</a>
+
+
+			<a href=”mon lien linkedin” target=”_blank”>
+				<i class="bi bi-envelope-open"></i>
+			</a>
+
+		</div>
+	</section>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
+
+```
