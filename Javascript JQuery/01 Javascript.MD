@@ -139,6 +139,7 @@ Comme n'importe quel script ou feuille de style, nous devons déclarer dans le f
 - Avec un CDN (Content Delivery Network)
 - Depuis le dossier local
 
+https://jquery.com/
 
 ### Le sélecteur JQuery
 
