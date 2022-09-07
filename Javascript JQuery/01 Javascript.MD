@@ -141,6 +141,22 @@ Comme n'importe quel script ou feuille de style, nous devons déclarer dans le f
 
 https://jquery.com/
 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Coucou</title>
+	<script type="text/javascript" src="jquery-3.6.1.min.js"></script>
+	<script type="text/javascript" src="monscript.js"></script>
+</head>
+<body>
+
+</body>
+</html>
+```
+
 ### Le sélecteur JQuery
 
 Pour travailler sur un élément du DOM, il faut d'abord le 'transformer' en objet JQuery.
